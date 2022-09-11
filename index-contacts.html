@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="./" class="logo">
+            <img
+              src="./images/logo-other.svg"
+              alt="Logo icon"
+              height="70"
+              decoding="async"
+              loading="lazy"
+            />
+          </a>
+          <nav class="nav" data-menu>
+            <ul class="nav__list list-no-style">
+              <li class="nav__item"><a href="" class="nav__link">About</a></li>
+              <li class="nav__item">
+                <a href="" class="nav__link">Service Areas</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">What we take</a>
+              </li>
+              <li class="nav__item"><a href="" class="nav__link">Yards</a></li>
+              <li class="nav__item">
+                <a href="./index-faq.html" class="nav__link">FAQ</a>
+              </li>
+              <li class="nav__item">
+                <a href="./index-contacts.html" class="nav__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#modal" class="button button__header">Get Cash Offer</a>
+          <a href="tel:+18888714488" class="header__phone">
+            Call us Now
+            <span class="phone">
+              <svg width="16" height="16" class="phone_icon">
+                <use href="./images/sprite.svg#icon-phone-bigger"></use>
+              </svg>
+              1-888-871-4488
+            </span>
+          </a>
+
+          <div class="header__hamburger-inner" data-menu-button>
+            <button class="header__hamburger hamburger">
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="breadchambs">
+        <div class="container">
+          <a href="./" class="breadchambs__home breadchambs__link">
+            <svg width="15" height="14" class="breadchambs__icon_home">
+              <use href="./images/sprite.svg#icon-home"></use>
+            </svg>
+            Main page
+          </a>
+          <span class="breadchambs__current">Contacts</span>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="contacts">
+            <div class="contacts__form">
+              <h1 class="section__title">Contacts</h1>
+              <p>
+                Our safety conscious professionals provide quick junk car pickup
+                and removal services.
+              </p>
+              <h2 class="secondary_title">Write us</h2>
+              <form action="">
+                <div class="c_form">
+                  <div class="c_form__item c_form__item_half">
+                    <label for="contacts-name" class="c_form__title"
+                      >Name <span class="c_form__note">(required)</span></label
+                    >
+                    <input
+                      type="text"
+                      id="contacts-name"
+                      class="c_form__input error"
+                    />
+                  </div>
+                  <div class="c_form__item c_form__item_half">
+                    <label for="contacts-phone" class="c_form__title"
+                      >Phone <span class="c_form__note">(required)</span></label
+                    >
+                    <input
+                      type="tel"
+                      id="contacts-phone"
+                      class="c_form__input"
+                    />
+                  </div>
+                  <div class="c_form__item">
+                    <label for="contacts-email" class="c_form__title"
+                      >Email <span class="c_form__note">(required)</span></label
+                    >
+                    <input
+                      type="email"
+                      id="contacts-email"
+                      class="c_form__input"
+                    />
+                  </div>
+                  <div class="c_form__item">
+                    <label for="contacts-message" class="c_form__title"
+                      >Message
+                      <span class="c_form__note">(required)</span></label
+                    >
+                    <textarea
+                      name="Message"
+                      id="contacts-message"
+                      class="c_form__textarea"
+                    >
+                    </textarea>
+                  </div>
+                  <button name="button" class="button c_form__btn">
+                    Request a quote
+                    <svg width="20" height="20" class="c_form__btn_icon">
+                      <use href="./images/sprite.svg#icon-send"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="contacts__info">
+              <h2 class="secondary_title">Contact us</h2>
+              <p class="secondary_text">
+                Feel free to contact us for junk cars removal inquiries. No
+                matter what part of the country you are in!
+              </p>
+              <ul class="contacts__list list-no-style">
+                <li class="contacts__item">
+                  <p class="contacts__sm_title">Contacts</p>
+                  <a href="tel:18555471550" class="contacts__elem">
+                    <svg width="24" height="24" class="contacts__elem__icon">
+                      <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                    </svg>
+                    1 (855) 547-1550
+                  </a>
+                  <a
+                    href="mailto:support@junkcarsus.com"
+                    class="contacts__elem"
+                  >
+                    <svg width="24" height="24" class="contacts__elem__icon">
+                      <use href="./images/sprite.svg#icon-email"></use>
+                    </svg>
+                    support@junkcarsus.com
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <p class="contacts__sm_title">Hours</p>
+                  <p class="contacts__elem">
+                    <svg width="24" height="24" class="contacts__elem__icon">
+                      <use href="./images/sprite.svg#icon-fax"></use>
+                    </svg>
+                    <b class="contacts__elem__title">Monday - Friday</b>
+                    8:00 AM - 8:00 PM
+                    <span class="contacts__elem__note">Los Angeles (PST)</span>
+                    <b class="contacts__elem__title">Saturday</b>
+                    8:00 AM - 3:00 PM
+                  </p>
+                </li>
+                <li class="contacts__item">
+                  <p class="contacts__sm_title">Address</p>
+                  <p class="contacts__elem">
+                    <svg width="24" height="24" class="contacts__elem__icon">
+                      <use href="./images/sprite.svg#icon-adress"></use>
+                    </svg>
+                    100 Alexander Way<br />
+                    Suite 816<br />
+                    Edgewater. NJ 0702
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer__block">
+            <h3 class="footer__title">Popular cities</h3>
+            <div class="footer__row">
+              <ul class="footer__menu list-no-style">
+                <li>
+                  <a href="" class="footer__link">Los Angeles</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">Austin</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">San Francisco</a>
+                </li>
+              </ul>
+
+              <ul class="footer__menu list-no-style">
+                <li>
+                  <a href="" class="footer__link">Los Angeles</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">Austin</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">San Francisco</a>
+                </li>
+              </ul>
+
+              <ul class="footer__menu list-no-style">
+                <li>
+                  <a href="" class="footer__link">Los Angeles</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">Austin</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">San Francisco</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__block">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__menu list-no-style">
+              <li><a href="" class="footer__link">About Us</a></li>
+              <li><a href="" class="footer__link">Contact us</a></li>
+              <li><a href="" class="footer__link">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__block">
+            <a class="footer__phone footer__title" href="tel:+18005553535">
+              <svg width="21" height="21" class="footer__phone_icon">
+                <use href="./images/sprite.svg#icon-phone-bigger"></use>
+              </svg>
+              1-800-555-35-35</a
+            >
+            <ul class="footer__menu list-no-style">
+              <li><a href="" class="footer__link">What we take</a></li>
+              <li><a href="" class="footer__link">Locations</a></li>
+              <li><a href="./index-faq.html" class="footer__link">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <a href="./" class="logo">
+            <img
+              src="./images/logo-bottom.svg"
+              alt="Logo icon"
+              height="70"
+              decoding="async"
+              loading="lazy"
+            />
+          </a>
+          <div class="footer__copyright">
+            All rights reserved 2019<br />
+            We junk ("us", "we", or "our") uses cookies on the cargo.ts website
+            (the "Service"). By using the Service, you consent to the use of
+            cookies.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
