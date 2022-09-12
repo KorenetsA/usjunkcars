@@ -63,3 +63,11 @@ if (document.querySelector('.accordion-2')) {
     alwaysOpen: false,
   });
 }
+$(document).ready(function () {
+  $('.slider_review').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+  });
+});
