@@ -187,7 +187,9 @@ p:last-of-type {
 .main-page .header__inner {
   align-items: center;
 }
-
+.main-page .logo-fill {
+  fill: #f1f3f8;
+}
 .main-page .nav__item:not(:last-child) {
   margin-right: 54px;
 }
