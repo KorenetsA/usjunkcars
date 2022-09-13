@@ -61,5 +61,10 @@ id="icon-star"
 <path fill="none" stroke="#474150" style="stroke: var(--color1, #474150)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M3.2 3.2l25.6 25.6"></path>
 <path fill="none" stroke="#474150" style="stroke: var(--color1, #474150)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M28.8 3.2l-25.6 25.6"></path>
 </symbol>
+
+<symbol id="icon-thanks" viewBox="0 0 34 32">
+<path fill="#1d3784" style="fill: var(--color1, #1d3784)" d="M2.593 10.125c-1.431 0-2.593 1.113-2.593 2.479v16.289c0 1.366 1.162 2.479 2.593 2.479 1.364-0.242 6.296 1.033 6.296-2.479v-16.289c0-3.546-5.013-2.252-6.296-2.479z"></path>
+<path fill="#2f4eac" style="fill: var(--color2, #2f4eac)" d="M28.628 11.379h-6.782c0 0 1.077-2.133 1.077-5.69 0-4.267-3.232-5.69-4.67-5.69s-2.155 0.71-2.155 4.267c0 3.379-3.306 6.097-5.433 7.499v17.619c7.107 3.255 15.304 2.498 16.349 2.615 7.256 0 5.773-9.286 7.269-13.967 0.608-3.482-2.095-6.654-5.657-6.654z"></path>
+</symbol>
 </defs>
 </svg>

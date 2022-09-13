@@ -70,6 +70,7 @@ if (document.querySelector('.accordion-2')) {
     openModalBtn1: document.querySelector('[data-modal-open-1]'),
     openModalBtn2: document.querySelector('[data-modal-open-2]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
+    closeModalBtn2: document.querySelector('[data-modal-close-2]'),
     modal: document.querySelector('[data-modal]'),
     modalOverlay: document.querySelector('[data-modal-overlay]'),
   };
@@ -78,6 +79,7 @@ if (document.querySelector('.accordion-2')) {
   refs.openModalBtn1.addEventListener('click', toggleModal);
   refs.openModalBtn2.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn2.addEventListener('click', toggleModal);
   refs.modalOverlay.addEventListener('click', toggleModal);
 
   function toggleModal() {
