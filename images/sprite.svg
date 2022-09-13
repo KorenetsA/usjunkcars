@@ -56,5 +56,10 @@ id="icon-star"
     stroke-width="2"
 ></path>
 </symbol>
+
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path fill="none" stroke="#474150" style="stroke: var(--color1, #474150)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M3.2 3.2l25.6 25.6"></path>
+<path fill="none" stroke="#474150" style="stroke: var(--color1, #474150)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.8" d="M28.8 3.2l-25.6 25.6"></path>
+</symbol>
 </defs>
 </svg>
