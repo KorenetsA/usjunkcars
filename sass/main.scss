@@ -682,7 +682,34 @@ p:last-of-type {
   right: -87px;
   background: url('../images/review-slider/next.svg') center center no-repeat;
 }
-
+.stars {
+  margin-bottom: -8px;
+}
+.rate {
+  display: inline-block;
+  font-size: 0;
+  margin-left: -2px;
+  position: relative;
+}
+.rate__line {
+  color: transparent;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.rate__line-colored {
+  color: #fab05b;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+.rate__line svg {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 0 2px;
+  width: 25px;
+}
 /* ==================== Popular brands ==================== */
 .list_brands {
   display: flex;
