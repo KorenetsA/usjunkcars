@@ -61,3 +61,20 @@
   line-height: 19px;
   color: #000000;
 }
+@media screen and (max-width: 767px) {
+  .breadchambs {
+    white-space: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .text_two_colomns {
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+  }
+  .text_two_colomns__item {
+    flex-basis: 100%;
+  }
+  .text_two_colomns__item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}

@@ -2305,6 +2305,25 @@ p:last-of-type {
   color: #000000;
 }
 
+@media screen and (max-width: 767px) {
+  .breadchambs {
+    white-space: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .text_two_colomns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 64px;
+  }
+  .text_two_colomns__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .text_two_colomns__item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2476,6 +2495,35 @@ a.contacts__elem:hover .contacts__elem__icon {
   fill: #1d3784;
 }
 
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contacts__form {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .contacts__info {
+    margin-top: 56px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .c_form {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .c_form__item_half {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
 .accordion-fag:not(:last-child) {
   margin-bottom: 56px;
 }
@@ -2488,6 +2536,7 @@ a.contacts__elem:hover .contacts__elem__icon {
 
 .accordion-fag .accordion__header {
   font-size: 16px;
+  padding-right: 55px;
 }
 
 .accordion-fag .accordion__header::after {
@@ -2498,5 +2547,16 @@ a.contacts__elem:hover .contacts__elem__icon {
   border: 0;
   height: 14px;
   width: 9px;
+  right: 30px;
   background: url("../images/arrow-faq.svg") center center no-repeat;
+}
+
+.accordion-fag .accordion__content {
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .accordion-fag:not(:last-child) {
+    margin-bottom: 48px;
+  }
 }/*# sourceMappingURL=main.css.map */

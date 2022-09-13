@@ -148,3 +148,23 @@ a.contacts__elem:hover {
 a.contacts__elem:hover .contacts__elem__icon {
   fill: $accentColor;
 }
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contacts__form {
+    flex-basis: 100%;
+  }
+  .contacts__info {
+    margin-top: 56px;
+    flex-basis: 100%;
+  }
+  .c_form {
+    flex-wrap: wrap;
+  }
+  .c_form__item_half {
+    flex-basis: 100%;
+  }
+}
