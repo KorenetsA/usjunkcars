@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="./" class="logo">
+            <svg
+              width="70"
+              height="70"
+              viewBox="0 0 70 70"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 70H70V0H0V70ZM30.0604 17.7391H42.8965V46.9517L38.0578 52.2609H31.6062L27.1035 47.019V39.8952H30.9341V45.8766L33.3536 48.4304H36.3105L38.5282 45.6077V23.4303L40.4101 21.8173H30.0604V17.7391Z"
+                fill="#1D3784"
+                class="logo-fill"
+              />
+            </svg>
+          </a>
+          <nav class="nav" data-menu>
+            <ul class="nav__list list-no-style">
+              <li class="nav__item"><a href="" class="nav__link">About</a></li>
+              <li class="nav__item">
+                <a href="./index-location.html" class="nav__link"
+                  >Service Areas</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link">What we take</a>
+              </li>
+              <li class="nav__item">
+                <a href="./index-yards.html" class="nav__link nav__current"
+                  >Yards</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./index-faq.html" class="nav__link">FAQ</a>
+              </li>
+              <li class="nav__item">
+                <a href="./index-contacts.html" class="nav__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#modal" class="button button__header">Get Cash Offer</a>
+          <a href="tel:+18888714488" class="header__phone">
+            Call us Now
+            <span class="phone">
+              <svg width="16" height="16" class="phone_icon">
+                <use href="./images/sprite.svg#icon-phone-bigger"></use>
+              </svg>
+              1-888-871-4488
+            </span>
+          </a>
+
+          <div class="header__hamburger-inner" data-menu-button>
+            <button class="header__hamburger hamburger">
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+              <span class="hamburger__line"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="breadchambs">
+        <div class="container">
+          <a href="./" class="breadchambs__home breadchambs__link">
+            <svg width="15" height="14" class="breadchambs__icon_home">
+              <use href="./images/sprite.svg#icon-home"></use>
+            </svg>
+            Main page
+          </a>
+          <span class="breadchambs__current">Yards</span>
+        </div>
+      </section>
+      <section class="yards_top">
+        <div class="container">
+          <h1 class="section__title">
+            Auto Salvage Yards, Junkyards, Recyclers & Wreckers in &lt;name&gt;
+          </h1>
+
+          <div class="yards_top__inner">
+            <div class="yards_top__image">
+              <picture>
+                <source
+                  media="(max-width: 991px)"
+                  srcset="
+                    ./images/yards/img-313.webp,
+                    ./images/yards/img-313@2x.webp 2x,
+                    ./images/yards/img-313@3x.webp 3x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 991px)"
+                  srcset="
+                    ./images/yards/img-313.jpg,
+                    ./images/yards/img-313@2x.jpg 2x,
+                    ./images/yards/img-313@3x.jpg 3x
+                  "
+                  type="image/jpg"
+                />
+
+                <source
+                  media="(min-width: 992px)"
+                  srcset="
+                    ./images/yards/img-520.webp,
+                    ./images/yards/img-520@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 992px)"
+                  srcset="
+                    ./images/yards/img-520.jpg,
+                    ./images/yards/img-520@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  alt="UsJunkCars Tow Truck"
+                  decoding="async"
+                  loading="lazy"
+                  src="./images/yards/img-520.jpg"
+                  srcset="
+                    ./images/yards/img-520.jpg,
+                    ./images/yards/img-520@2x.jpg 2x
+                  "
+                />
+              </picture>
+            </div>
+            <div class="yards_top__info">
+              <div class="yards_top__note">
+                Looking to sell your car to a junkyard in Cleveland, OH?
+              </div>
+              <p>Here are your options:</p>
+              <div class="yards_option">
+                <svg width="56" height="56" class="yards_option__icon">
+                  <use href="./images/sprite.svg#icon-yards-option-1"></use>
+                </svg>
+                <div>
+                  <h3 class="yards_option_title">
+                    Call us or Fill out online form
+                  </h3>
+                  <p class="yards_option__text">
+                    To get the best price, instantly (we’ll get the yards to
+                    compete for your vehicle)
+                  </p>
+                </div>
+              </div>
+              <div class="yards_option__or">OR</div>
+              <div class="yards_option">
+                <svg width="56" height="56" class="yards_option__icon">
+                  <use href="./images/sprite.svg#icon-yards-option-2"></use>
+                </svg>
+                <div>
+                  <h3 class="yards_option_title">Browse the list of yards</h3>
+                  <p class="yards_option__text">
+                    Browse the list of auto salvage yards near you below, and
+                    contact them on your own.
+                  </p>
+                </div>
+              </div>
+
+              <div class="yards_top__note yards_top__note_no">
+                Our goal is to make it easy for you when selling your junk car
+                for cash in Cleveland.
+              </div>
+              <p class="yards_more">
+                <svg width="24" height="24" class="yards_more__icon">
+                  <use href="./images/sprite.svg#icon-cash"></use>
+                </svg>
+                <span
+                  >Remember, if you want the absolute best price, get an offer
+                  from us!</span
+                >
+              </p>
+
+              <div class="cta">
+                <p class="cta__title">Call us NOW</p>
+                <a class="cta__phone section__title" href="tel:+18005553535">
+                  <svg width="26" height="26" class="cta__phone_icon">
+                    <use href="./images/sprite.svg#icon-phone-bigger"></use>
+                  </svg>
+                  1-800-555-35-35</a
+                >
+                <a href="#modal" class="cta__button button">Get free quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-pb0">
+        <div class="container">
+          <h2 class="section__title">
+            Junkyards list in &lt;name&gt;, &lt;abr&gt;
+          </h2>
+          <ul class="yards_b list-no-style">
+            <li class="yards_b__item">
+              <h3 class="yards_b__title">Ultimate Used Auto Parts</h3>
+              <p class="yards_b__info">
+                <svg height="22" width="18" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-dote"></use>
+                </svg>
+                12049 Flatlands Ave<br />
+                Brooklyn, NY 11207
+              </p>
+              <a href="tel:7182725700" class="yards_b__info"
+                ><svg width="24" height="24" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                </svg>
+                (718) 272-5700</a
+              >
+            </li>
+            <li class="yards_b__item">
+              <h3 class="yards_b__title">Langley’s Auto Wrecking And Towing</h3>
+              <p class="yards_b__info">
+                <svg height="22" width="18" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-dote"></use>
+                </svg>
+                12049 Flatlands Ave<br />
+                Brooklyn, NY 11207
+              </p>
+              <a href="tel:7182725700" class="yards_b__info"
+                ><svg width="24" height="24" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                </svg>
+                (718) 272-5700</a
+              >
+            </li>
+            <li class="yards_b__item">
+              <h3 class="yards_b__title">Ultimate Used Auto Parts</h3>
+              <p class="yards_b__info">
+                <svg height="22" width="18" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-dote"></use>
+                </svg>
+                12049 Flatlands Ave<br />
+                Brooklyn, NY 11207
+              </p>
+              <a href="tel:7182725700" class="yards_b__info"
+                ><svg width="24" height="24" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                </svg>
+                (718) 272-5700</a
+              >
+            </li>
+            <li class="yards_b__item">
+              <h3 class="yards_b__title">Langley’s Auto Wrecking And Towing</h3>
+              <p class="yards_b__info">
+                <svg height="22" width="18" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-dote"></use>
+                </svg>
+                12049 Flatlands Ave<br />
+                Brooklyn, NY 11207
+              </p>
+              <a href="tel:7182725700" class="yards_b__info"
+                ><svg width="24" height="24" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                </svg>
+                (718) 272-5700</a
+              >
+            </li>
+            <li class="yards_b__item">
+              <h3 class="yards_b__title">Ultimate Used Auto Parts</h3>
+              <p class="yards_b__info">
+                <svg height="22" width="18" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-dote"></use>
+                </svg>
+                12049 Flatlands Ave<br />
+                Brooklyn, NY 11207
+              </p>
+              <a href="tel:7182725700" class="yards_b__info"
+                ><svg width="24" height="24" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                </svg>
+                (718) 272-5700</a
+              >
+            </li>
+            <li class="yards_b__item">
+              <h3 class="yards_b__title">Langley’s Auto Wrecking And Towing</h3>
+              <p class="yards_b__info">
+                <svg height="22" width="18" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-dote"></use>
+                </svg>
+                12049 Flatlands Ave<br />
+                Brooklyn, NY 11207
+              </p>
+              <a href="tel:7182725700" class="yards_b__info"
+                ><svg width="24" height="24" class="yards_b__icon">
+                  <use href="./images/sprite.svg#icon-phone-contacts"></use>
+                </svg>
+                (718) 272-5700</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">We Buy Vehicles in All Conditions</h2>
+          <ul class="list_vehicle list-no-style">
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-1.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Blown Engine icon"
+                  height="30"
+                />
+              </div>
+              <div class="list_vehicle__title">Blown Engine</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-2.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Burned icon"
+                  height="34"
+                />
+              </div>
+              <div class="list_vehicle__title">Blown Engine</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-3.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Damaged icon"
+                  height="34"
+                />
+              </div>
+              <div class="list_vehicle__title">Damaged</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-4.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Non-running icon"
+                  height="20"
+                />
+              </div>
+              <div class="list_vehicle__title">Non-running</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-5.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Wrecked icon"
+                  height="22"
+                />
+              </div>
+              <div class="list_vehicle__title">Wrecked</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-6.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Flooded icon"
+                  height="40"
+                />
+              </div>
+              <div class="list_vehicle__title">Flooded</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-7.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Old icon"
+                  height="30"
+                />
+              </div>
+              <div class="list_vehicle__title">Old</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-8.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Salvage icon"
+                  height="30"
+                />
+              </div>
+              <div class="list_vehicle__title">Salvage</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-9.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Scrap icon"
+                  height="30"
+                />
+              </div>
+              <div class="list_vehicle__title">Scrap</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-10.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Used icon"
+                  height="30"
+                />
+              </div>
+              <div class="list_vehicle__title">Used</div>
+            </li>
+            <li class="list_vehicle__item">
+              <div class="list_vehicle__img">
+                <img
+                  src="./images/vehicle/icon-11.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Totaled icon"
+                  height="30"
+                />
+              </div>
+              <div class="list_vehicle__title">Totaled</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-colored">
+        <div class="container">
+          <h2 class="section__title">Types of Vehicles We Buy</h2>
+
+          <ul class="list_type list-no-style">
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-1.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Pickup icon"
+                  height="28"
+                />
+              </div>
+              <div class="list_type__title">Pickup</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-2.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Convertible icon"
+                  height="28"
+                />
+              </div>
+              <div class="list_type__title">Convertible</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-3.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Hatchback icon"
+                  height="28"
+                />
+              </div>
+              <div class="list_type__title">Hatchback</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-4.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="SUV icon"
+                  height="31"
+                />
+              </div>
+              <div class="list_type__title">SUV</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-5.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Bus icon"
+                  height="38"
+                />
+              </div>
+              <div class="list_type__title">Bus</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-6.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Sedan icon"
+                  height="28"
+                />
+              </div>
+              <div class="list_type__title">Sedan</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-7.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Truck icon"
+                  height="40"
+                />
+              </div>
+              <div class="list_type__title">Truck</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-8.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Station wagon icon"
+                  height="28"
+                />
+              </div>
+              <div class="list_type__title">Station wagon</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-9.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="Van icon"
+                  height="31"
+                />
+              </div>
+              <div class="list_type__title">Van</div>
+            </li>
+            <li class="list_type__item">
+              <div class="list_type__img">
+                <img
+                  src="./images/vehicle-type/icon-10.svg"
+                  decoding="async"
+                  loading="lazy"
+                  alt="RV icon"
+                  height="38"
+                />
+              </div>
+              <div class="list_type__title">RV</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section-pb0">
+        <div class="container">
+          <h2 class="section__title section__title-br section__title-yards">
+            Junk Car Buyer Vs. Junkyard<br />
+            Vs. Auto Recycler Vs. Auto Wrecker
+          </h2>
+          <div class="text_two_colomns">
+            <div class="text_two_colomns__item">
+              <div class="yards_text">
+                <h3 class="secondary_title">Junk Car Buyer</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Nam fermentum,
+                  nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                  rhoncus pronin sapien nunc accuan eget.
+                </p>
+              </div>
+              <div class="yards_text">
+                <h3 class="secondary_title">Auto Recycle</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Nam fermentum,
+                  nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                  rhoncus pronin sapien nunc accuan eget.
+                </p>
+              </div>
+            </div>
+            <div class="text_two_colomns__item">
+              <div class="yards_text">
+                <h3 class="secondary_title">Junkyard</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Nam fermentum,
+                  nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                  rhoncus pronin sapien nunc accuan eget.
+                </p>
+              </div>
+              <div class="yards_text">
+                <h3 class="secondary_title">Auto Wrecker</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean euismod bibendum laoreet. Proin gravida dolor sit amet
+                  lacus accumsan et viverra justo commodo. Proin sodales
+                  pulvinar sic tempor. Sociis natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Nam fermentum,
+                  nulla luctus pharetra vulputate, felis tellus mollis orci, sed
+                  rhoncus pronin sapien nunc accuan eget.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer__block">
+            <h3 class="footer__title">Popular cities</h3>
+            <div class="footer__row">
+              <ul class="footer__menu list-no-style">
+                <li>
+                  <a href="" class="footer__link">Los Angeles</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">Austin</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">San Francisco</a>
+                </li>
+              </ul>
+
+              <ul class="footer__menu list-no-style">
+                <li>
+                  <a href="" class="footer__link">Los Angeles</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">Austin</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">San Francisco</a>
+                </li>
+              </ul>
+
+              <ul class="footer__menu list-no-style">
+                <li>
+                  <a href="" class="footer__link">Los Angeles</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">Austin</a>
+                </li>
+                <li>
+                  <a href="" class="footer__link">San Francisco</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__block">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__menu list-no-style">
+              <li><a href="" class="footer__link">About Us</a></li>
+              <li>
+                <a href="./index-contacts.html" class="footer__link"
+                  >Contact us</a
+                >
+              </li>
+              <li><a href="" class="footer__link">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__block">
+            <a class="footer__phone footer__title" href="tel:+18005553535">
+              <svg width="21" height="21" class="footer__phone_icon">
+                <use href="./images/sprite.svg#icon-phone-bigger"></use>
+              </svg>
+              1-800-555-35-35</a
+            >
+            <ul class="footer__menu list-no-style">
+              <li><a href="" class="footer__link">What we take</a></li>
+              <li><a href="" class="footer__link">Locations</a></li>
+              <li><a href="./index-faq.html" class="footer__link">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <a href="./" class="logo logo-footer">
+            <svg
+              width="70"
+              height="70"
+              viewBox="0 0 70 70"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 70H70V0H0V70ZM30.0604 17.7391H42.8965V46.9517L38.0578 52.2609H31.6062L27.1035 47.019V39.8952H30.9341V45.8766L33.3536 48.4304H36.3105L38.5282 45.6077V23.4303L40.4101 21.8173H30.0604V17.7391Z"
+                fill="#1D3784"
+                class="logo-fill"
+              />
+            </svg>
+          </a>
+          <div class="footer__copyright">
+            All rights reserved 2019<br />
+            We junk ("us", "we", or "our") uses cookies on the cargo.ts website
+            (the "Service"). By using the Service, you consent to the use of
+            cookies.
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/jquery-3.6.1.min.js" type="module"></script>
+    <script src="./js/slick.min.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
