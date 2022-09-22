@@ -92,6 +92,7 @@ $('.place__header').click(function (e) {
     openModalBtn2: document.querySelector('[data-modal-open-2]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
     closeModalBtn2: document.querySelector('[data-modal-close-2]'),
+    closeModalBtn3: document.querySelector('[data-modal-close-3]'),
     modal: document.querySelector('[data-modal]'),
     modalOverlay: document.querySelector('[data-modal-overlay]'),
   };
@@ -101,6 +102,7 @@ $('.place__header').click(function (e) {
   refs.openModalBtn2.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn2.addEventListener('click', toggleModal);
+  refs.closeModalBtn3.addEventListener('click', toggleModal);
   refs.modalOverlay.addEventListener('click', toggleModal);
 
   function toggleModal() {

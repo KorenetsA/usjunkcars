@@ -1404,9 +1404,9 @@
     </footer>
 
     <!--модальное окно-->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="backdrop-overlay" data-modal-overlay></div>
-      <div class="modal">
+      <div class="modal" style="display: none">
         <button class="modal__close" data-modal-close>
           <svg width="16" height="16">
             <use href="./images/sprite.svg#icon-close"></use>
@@ -1490,8 +1490,8 @@
       </div>
 
       <!-- ========================= Thanks form ========================== -->
-      <div class="modal modal-thanks" style="display: none">
-        <button class="modal__close" data-modal-close>
+      <div class="modal modal-thanks">
+        <button class="modal__close" data-modal-close-2>
           <svg width="16" height="16">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
@@ -1504,7 +1504,7 @@
             <use href="./images/sprite.svg#icon-thanks"></use>
           </svg>
           <p class="modal__sm_text">We’ll contact you soon.</p>
-          <button class="thanks_close" data-modal-close-2>Close</button>
+          <button class="thanks_close" data-modal-close-3>Close</button>
         </div>
       </div>
     </div>

@@ -240,16 +240,28 @@
     transform: translateY(-50%);
     background-size: 100% auto;
   }
+
   .ban__title {
-    margin-bottom: 48px !important;
+    margin-bottom: 24px !important;
     margin-left: auto;
     margin-right: auto;
-    max-width: 280px;
+    max-width: 286px;
     background: none;
     position: relative;
     z-index: 1;
+    font-size: 31px;
+    line-height: 44px;
+    letter-spacing: 0px;
   }
-  .ban__title:before {
+  .ban__title span {
+    display: block;
+    background-color: $accentColor;
+  }
+  .ban__title span + span {
+    display: inline-block;
+    padding: 0 8px;
+  }
+  /* .ban__title:before {
     content: '';
     display: block;
     position: absolute;
@@ -270,7 +282,7 @@
     height: 45px;
     background-color: $accentColor;
     z-index: -1;
-  }
+  }*/
   .ban__note {
     margin-bottom: 20px !important;
   }

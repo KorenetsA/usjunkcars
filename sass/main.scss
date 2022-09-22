@@ -556,16 +556,15 @@ p:last-of-type {
 .list_vehicle__item {
   box-sizing: border-box;
   margin: 8px;
-  padding: 37px 15px 23px;
+  padding: 11px 15px 23px;
   flex-basis: calc((100% / 6) - 16px);
   background-color: #f1f3f8;
 }
 .list_vehicle__img {
-  height: 40px;
+  height: 84px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 18px;
 }
 .list_vehicle__title {
   text-align: center;
